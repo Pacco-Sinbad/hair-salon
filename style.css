@@ -263,6 +263,9 @@ select{
   text-align: center;
   padding: 0 .25em;
 }
+.tabs p{
+  width: 90%;
+}
 .tabs div{
   font-size: 5em;
   margin-top: 1em;

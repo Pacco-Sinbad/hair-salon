@@ -79,58 +79,22 @@ header{
   color: black;
   text-decoration: none;
   height: 4em;
+  
 }
 
-.hero{
-  float: left;
-  padding: 0 1em;
-  line-height: 4em;
-}
-
-.hero img{
+.logo img{
   height: 4em;
-}
-
-.booking{
-  float: right;
-  padding: 0 1em;
-  line-height: 4em;
 }
 
 nav ul{
   display: flex;
-  justify-content: space-evenly;
   flex-direction: row;
-  margin: 0 1em;
+  justify-content: space-evenly;
+  align-items: center;
 }
-ul li{
-  margin: 0 1em;
-}
-
-.navigation{
-  width: fit-content;
-  margin: 0 auto;
-  line-height: 4em;
-}
-
-nav li a,
-.hero a,
-.booking a{
+nav a{
   color: black;
-  text-decoration: none;
 }
-
-@media (max-width: 950px){
-  .mqd{
-    display: none;
-  }
-  nav ul li{
-    display: flex;
-   justify-content: space-evenly;
-    margin: 0 .2em;
-  }
-}
-
 /* main */
 
 main{

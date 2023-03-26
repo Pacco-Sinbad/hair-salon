@@ -329,12 +329,16 @@ select{
   .tabs{
     float: none;
     margin: 0 auto;
+    width: 70%;
   }
   .tabs div{
-    margin: .2em 0;
+    margin: .1em 0;
   }
   .services{
     padding: 0 0 1em 0;
+  }
+  .tabs h3{
+    padding-top: 0;
   }
 }
 /* media */

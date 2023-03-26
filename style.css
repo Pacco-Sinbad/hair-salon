@@ -156,14 +156,17 @@ h1{
     margin: .5em 0 0 .5em;
     display: block
   }
-  .burger a{
+  .burger a,
+  .burger i{
     color: wheat;
   }
-  .burger section{
-    visibility: hidden;
+  #menu{
     background-color: black;
     width: max-content;
     border-radius: 3px;
+  }
+  .hidden{
+    visibility: hidden;
   }
   .burger ul{
     padding: .2em .2em;
